@@ -57,7 +57,7 @@ print(soa)
 print("Objetos: ")
 for i in range (len(soa)):
     if(soa[i]==1):
-        print(objeto[i].valor,end=" ")
+        print(objeto[i].valor,"(", objeto[i].volumen, ") |",end=" ")
 sumaMochila =0
 for i in range(len(soa)):
     if(soa[i]==1):
