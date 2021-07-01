@@ -83,6 +83,6 @@ for i in range(len(mejor_combinacion)):
         sumaMochila = sumaMochila + objetos[i].gramos
         #print(objeto[i].volumen)
 
-print("\nVolumen de la mochila: ",gramos_acumulado, " gramos")
-print("\nValor de la mochila:$",valor_total)
-print("\nUtilidad total de la mochila: ", utilidad_total)
+print()
+print("\nTotal Gramos: ", sumaMochila)
+print("\nValor de la Mochila:$", valorMochila)
