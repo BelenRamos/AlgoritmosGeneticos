@@ -35,5 +35,6 @@ while (gramos_acumulado<gramos_max) and (i<(n-1)):
 for i in range(len(mochila)):
     print(mochila[i].valor, end=" ")
 
-print("\nGramos de la mochila: ",gramos_acumulado)
-print("Valor de la mochila: ",valor_total)
+print("\nVolumen de la mochila: ",gramos_acumulado, " gramos")
+print("\nValor de la mochila:$",valor_total)
+print("\nUtilidad total de la mochila: ", utilidad_total)
