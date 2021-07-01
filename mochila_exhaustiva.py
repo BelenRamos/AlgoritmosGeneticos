@@ -88,6 +88,7 @@ print("Valores de la mochila:")
 for i in range (len(mejor_combinacion)):
     if(mejor_combinacion[i]==1):
         print(objetos[i].valor,end=" ")
+print()
 print("\nVolumenes de la mochila:")
 for i in range (len(mejor_combinacion)):
     if(mejor_combinacion[i]==1):
@@ -97,6 +98,6 @@ for i in range(len(mejor_combinacion)):
     if(mejor_combinacion[i]==1):
         sumaMochila = sumaMochila + objetos[i].volumen
         #print(objeto[i].volumen)
-
-print("\nTotal $",mejorValorMochila)
-print("Total Volumen", sumaMochila)
+print()
+print("\nValor Total: $",mejorValorMochila)
+print("Volumen Total:", sumaMochila, "cm3")
